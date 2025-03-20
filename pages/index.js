@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white">
-      <h1 className="text-4xl font-bold text-center">Bonjour, moi c'est Clara !</h1>
+      <h1 className="text-4xl font-bold text-center">Bonjour, moi c'est Cl !</h1>
       <p className="text-lg text-center mt-2">
         Étudiant en Science des Données, je partage avec vous mes projets d'analyse et de modélisation.
       </p>
