@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Style général */
+body {
+  background-color: #111827;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Mise en page des sections */
+section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* Titres */
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #fbbf24; /* Jaune doré */
+}
+
+h2 {
+  font-size: 2rem;
+  color: #60a5fa; /* Bleu clair */
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #34d399; /* Vert */
+}
+
+/* Liens */
+a {
+  color: #60a5fa;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #fbbf24;
+}
+
+/* Boutons */
+button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
